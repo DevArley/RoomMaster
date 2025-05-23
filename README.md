@@ -65,17 +65,17 @@ El objetivo principal de RoomMaster es proporcionar una solución tecnológica a
 
 ## 🖼️ Capturas de Pantalla
 
-### Panel de Reservas
+### Gestión de Clientes
 
-![Panel de Reservas](https://github.com/tu-usuario/roommaster/blob/main/assets/panel-reservas.png)
+![Panel de Reservas](https://github.com/DevArley/RoomMaster/blob/main/assets/Gestor-clientes.png)
+
+### Gestión de Empleados
+
+![Gestión de Habitaciones](https://github.com/DevArley/RoomMaster/blob/main/assets/Gestor-empleados.png)
 
 ### Gestión de Habitaciones
 
-![Gestión de Habitaciones](https://github.com/tu-usuario/roommaster/blob/main/assets/gestion-habitaciones.png)
-
-### Reportes Administrativos
-
-![Reportes Administrativos](https://github.com/tu-usuario/roommaster/blob/main/assets/reportes-administrativos.png)
+![Reportes Administrativos](https://github.com/DevArley/RoomMaster/blob/main/assets/Gestor-habitaciones.png)
 
 ---
 
@@ -92,18 +92,4 @@ El objetivo principal de RoomMaster es proporcionar una solución tecnológica a
 
 ---
 
-## 🔧 Instalación y Configuración
 
-### Requisitos
-
-- Python 3.10+
-- PostgreSQL (o SQLite para pruebas)
-- Git
-
-### Pasos de Instalación
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/tu-usuario/roommaster.git
-   cd roommaster
