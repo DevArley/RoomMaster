@@ -1,33 +1,109 @@
 # 🏨 RoomMaster
 
-**RoomMaster** es un sistema integral de gestión hotelera (Hotel Property Management System - PMS) diseñado para mejorar la administración operativa de hoteles, hostales, casas rurales y alojamientos turísticos. Esta plataforma permite controlar reservas, gestionar huéspedes, automatizar procesos administrativos y brindar una experiencia más eficiente y profesional tanto al personal como a los clientes.
+![RoomMaster Logo](https://github.com/DevArley/RoomMaster/blob/main/assets/logo-roommaster.png)
+
+**RoomMaster** es un sistema integral de gestión hotelera (Property Management System - PMS) desarrollado en Python. Está diseñado para optimizar la administración operativa de hoteles, hostales, casas rurales y alojamientos turísticos, permitiendo un control eficiente de reservas, gestión de huéspedes, automatización de procesos administrativos y mejora en la experiencia tanto del personal como de los clientes.
+
+---
+
+## 📋 Índice
+
+- [🎯 Propósito del Proyecto](#-propósito-del-proyecto)
+- [🚀 Funcionalidades Principales](#-funcionalidades-principales)
+- [🖼️ Capturas de Pantalla](#️-capturas-de-pantalla)
+- [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+- [🔧 Instalación y Configuración](#-instalación-y-configuración)
+- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+- [👥 Roles del Sistema](#-roles-del-sistema)
+- [📄 Licencia](#-licencia)
+- [🤝 Contribuciones](#-contribuciones)
+- [📬 Contacto](#-contacto)
+
+---
+
+## 🎯 Propósito del Proyecto
+
+El objetivo principal de RoomMaster es proporcionar una solución tecnológica aplicable y fundamentada en un análisis profundo de las necesidades reales del sector turístico, especialmente en entornos con limitada digitalización. Busca:
+
+- Digitalizar procesos manuales y evitar errores humanos.
+- Brindar control total y en tiempo real al personal administrativo.
+- Mejorar la experiencia del huésped a través de una atención más rápida y precisa.
 
 ---
 
 ## 🚀 Funcionalidades Principales
 
-- 📅 **Gestión de Reservas**: Crear, modificar y visualizar reservas con un calendario interactivo.
-- 🛏️ **Control de Habitaciones**: Estado en tiempo real (disponible, ocupado, en limpieza, mantenimiento).
-- 💳 **Facturación y Pagos**: Generación automática de facturas y control de pagos.
-- 🔗 **Channel Manager**: Integración con plataformas como Booking.com, Airbnb, Expedia.
-- 👤 **Gestión de Clientes**: Registro y seguimiento de huéspedes, historial de visitas y preferencias.
-- 📈 **Reportes y Análisis**: Informes personalizados sobre ocupación, ingresos, gastos, etc.
-- 🧹 **Limpieza y Mantenimiento**: Panel de tareas para el personal de housekeeping.
-- 🌐 **Motor de Reservas Web**: Permite reservas directas desde el sitio web del alojamiento.
-- 🔐 **Seguridad de Datos**: Protección de la información sensible del establecimiento y de los huéspedes.
-- 👨‍💼 **Multiusuario y Roles**: Acceso diferenciado para administrador, recepcionista, limpieza, etc.
+### 👥 Gestión de Clientes y Reservas
+
+- Registro de huéspedes con historial y preferencias.
+- Reserva y check-in/check-out automático.
+- Validación de disponibilidad en tiempo real.
+
+### 🛏️ Gestión de Habitaciones
+
+- Estado por habitación: disponible, ocupada, en limpieza, mantenimiento.
+- Asignación dinámica y administración visual mediante panel interactivo.
+
+### 📄 Facturación y Pagos
+
+- Generación de facturas digitales.
+- Registro de pagos parciales o totales.
+- Reporte de ingresos.
+
+### 🧼 Limpieza y Mantenimiento
+
+- Asignación de tareas a personal de limpieza y técnicos.
+- Visualización del estado operativo por cada habitación.
+- Reporte de incidencias.
+
+### 📊 Reportes Administrativos
+
+- Informes de ocupación, ingresos, reservas pendientes y canceladas.
+- Exportación a PDF o Excel.
+
+---
+
+## 🖼️ Capturas de Pantalla
+
+### Panel de Reservas
+
+![Panel de Reservas](https://github.com/tu-usuario/roommaster/blob/main/assets/panel-reservas.png)
+
+### Gestión de Habitaciones
+
+![Gestión de Habitaciones](https://github.com/tu-usuario/roommaster/blob/main/assets/gestion-habitaciones.png)
+
+### Reportes Administrativos
+
+![Reportes Administrativos](https://github.com/tu-usuario/roommaster/blob/main/assets/reportes-administrativos.png)
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Backend**: Java + Spring Boot  
-- **Frontend**: React.js / HTML5 + TailwindCSS  
-- **Base de Datos**: PostgreSQL / MongoDB (para almacenamiento de documentos)  
-- **Autenticación**: JWT (JSON Web Token)  
-- **DevOps**: Docker, GitHub Actions (CI/CD), Git  
-- **Integraciones**: APIs externas de OTA (Online Travel Agencies)
+- **Lenguaje**: Python 3.10
+- **Framework**: Flask / Django
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+- **Base de Datos**: PostgreSQL o SQLite3 (modo local)
+- **Autenticación**: JWT o sesiones Flask
+- **Control de Versiones**: Git
+- **CI/CD**: GitHub Actions
+- **Despliegue**: Docker (opcional)
 
 ---
 
+## 🔧 Instalación y Configuración
 
+### Requisitos
+
+- Python 3.10+
+- PostgreSQL (o SQLite para pruebas)
+- Git
+
+### Pasos de Instalación
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/roommaster.git
+   cd roommaster
