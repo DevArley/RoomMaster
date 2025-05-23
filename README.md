@@ -1,6 +1,6 @@
 # 🏨 RoomMaster
 
-![RoomMaster Logo](https://github.com/DevArley/RoomMaster/blob/main/assets/logo-roommaster.png)
+![RoomMaster Logo](https://github.com/DevArley/RoomMaster/blob/main/assets/logo-room.png)
 
 **RoomMaster** es un sistema integral de gestión hotelera (Property Management System - PMS) desarrollado en Python. Está diseñado para optimizar la administración operativa de hoteles, hostales, casas rurales y alojamientos turísticos, permitiendo un control eficiente de reservas, gestión de huéspedes, automatización de procesos administrativos y mejora en la experiencia tanto del personal como de los clientes.
 
